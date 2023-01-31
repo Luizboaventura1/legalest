@@ -261,6 +261,11 @@ footer p {
 /* Media queries */
 
 @media screen and (max-width: 768px) {
+
+    header {
+        height: 90%;
+    }
+
     .menu_desktop {
         display: none;
     }
