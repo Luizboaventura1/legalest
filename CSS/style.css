@@ -35,7 +35,7 @@ header .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 4%;
+    padding: 30px 4%;
 }
 
 .navbar h1 {
@@ -100,13 +100,13 @@ header main {
     max-width: 600px;
     width: 100%;
     text-align: center;
-    padding-top: 50px;
+    padding: 50px 2% 0 2%;
 }
 
 .main_wraper h1 {
     color: white;
     font-size: 70px;
-    padding: 20px;
+    padding: 20px 0;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -288,9 +288,11 @@ footer p {
     }
 
     .servicos {
-        display: block;
-        padding: 50px 2%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px 2%;
         background-color: rgb(255, 255, 255);
+        text-align: center;
     }
 
     .servicos_box {
@@ -298,6 +300,10 @@ footer p {
         height: 200px;
         text-align: center;
         padding-top: 30px;
-        margin: auto;
+        margin: 45px 5px;
+    }
+
+    .main_wraper h1 {
+        font-size: 45px;
     }
 }
